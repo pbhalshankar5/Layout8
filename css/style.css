@@ -1,0 +1,67 @@
+body,h1,h2,h3,h4,h5,h6,a,ul,ol{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background: #ff6306 url("../images/bg_icon.png");
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 882px;
+    margin: 0 auto;
+}
+.food-row{
+    overflow: hidden;
+    margin: 75px 0 70px;
+}
+.food-row > div{
+    width: 406px;
+    background: white;
+    float: left;
+}
+.food-row > div:first-child{
+    margin: 0 70px 0 0;
+}
+.food-details-box div:first-child{
+    width: 205px;
+    float: left;
+}
+.food-details-box div:last-child{
+    width: 201px;
+    float: left;
+    padding: 20px 25px 13px 22px;
+}
+.food-details-box h1{
+    font-size: 21px;
+    color: #1d1d1d;
+    font-weight: 600;  
+}
+.food-details-box h2{
+    font-size: 18px;
+    color: #6fda72;
+    font-weight: 400;
+    margin: 7px 0 7px;
+}
+.food-details-box p{
+    font-size: 12px;
+    color: #1d1d1d;
+    font-weight: 400; 
+}
+.food-details-box button{
+    width: 151px;
+    background: black;
+    color: white;
+    font-size: 14px;
+    height: 30px;
+}
+.food-details-box img{
+    float: left;
+}
+.fa-indian-rupee-sign{
+    color: #6fda72;
+}
+
+
